@@ -101,7 +101,9 @@ public struct JSONSerialization {
     typealias JSONObject = [String: Any]
     typealias JSONArray = [Any]
     
-    struct JSONNull {}
+    public struct JSONNull {
+        public init() {}
+    }
     
     enum DecodeError: ErrorType {
         case MalformedJSON
@@ -111,7 +113,7 @@ public struct JSONSerialization {
         case IncompatibleType
     }
     
-    static func decode(JSON: String) throws -> Any {
+    public static func decode(JSON: String) throws -> Any {
         let trimmed = JSON.trimWhiteSpaceAndNewline()
         
         // empty
@@ -201,7 +203,7 @@ public struct JSONSerialization {
         }
     }
     
-    static func encode(JSON: Any, prettyPrint: Bool = false) throws -> String {
+    public static func encode(JSON: Any, prettyPrint: Bool = false) throws -> String {
         if prettyPrint {
             let result = try _encodePretty(JSON)
             return "\n".join(result)

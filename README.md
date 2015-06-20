@@ -3,8 +3,6 @@
 Natively implemented alternative to `NSJSONSerialization`. No **Foundation** required!
 Work with native **Swift** types such as `Int`, `Double` and `Bool` instead of `NSNumber`.
 
-Refer to the demo project for the following example. The playground does not work in Xcode 7 Beta 1.
-
 Here's some JSON in text form:
 ```
 let JSON = "{\"menu\": {  \"id\": \"file\",  \"value\": \"File\",  \"popup\": {    \"menuitem\": [{\"value\": \"New\", \"onclick\": \"CreateNewDoc()\"},      {\"value\": \"Open\", \"onclick\": \"OpenDoc()\"},{\"value\": \"Close\", \"onclick\": \"CloseDoc()\"}    ]  }}}"
