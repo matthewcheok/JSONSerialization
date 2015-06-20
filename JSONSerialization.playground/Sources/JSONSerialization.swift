@@ -1,6 +1,6 @@
 //
-//  JSONParser.swift
-//  yyy
+//  JSONSerialization.swift
+//  JSONSerialization
 //
 //  Created by Matthew Cheok on 19/6/15.
 //  Copyright © 2015 matthewcheok. All rights reserved.
@@ -23,8 +23,11 @@ extension CollectionType {
 
 extension String {
     private func splitByCharacter(character: Character) throws -> [String] {
-        var results: [String] = []
+        if self.isEmpty {
+            return []
+        }
         
+        var results: [String] = []
         var arrayCount = 0
         var objectCount = 0
         var stringOpen = false
@@ -193,7 +196,7 @@ public struct JSONSerialization {
         }
             
             // string
-        else {    
+        else {
             return trimmed
         }
     }
@@ -248,7 +251,7 @@ public struct JSONSerialization {
             let indented = _flattenWithCommas(result).map { kIdentationString + $0 }
             return ["["] + indented + ["]"]
         }
-        
+            
             // others
         else {
             return [try _encode(JSON)]

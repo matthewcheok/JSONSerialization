@@ -1,3 +1,11 @@
+//
+//  String.swift
+//  JSONSerialization
+//
+//  Created by Matthew Cheok on 19/6/15.
+//  Copyright © 2015 matthewcheok. All rights reserved.
+//
+
 extension Character {
     public static var newlineCharacterSet: Set<Character> {
         return ["\u{000A}", "\u{000B}", "\u{000C}", "\u{000D}", "\u{0085}"]
