@@ -227,7 +227,7 @@ public struct JSONSerialization {
     }
     
     private static func _encodePretty(JSON: Any) throws -> [String] {
-        let kIdentationString = "   "
+        let kIndentationString = "   "
         
         // object
         if let object = JSON as? JSONObject {
@@ -236,7 +236,7 @@ public struct JSONSerialization {
                 let encoded = try _encodePretty(value)
                 return ["\"\(key)\": " + encoded[0]] + encoded[1..<encoded.count]
             }
-            let indented = _flattenWithCommas(result).map { kIdentationString + $0 }
+            let indented = _flattenWithCommas(result).map { kIndentationString + $0 }
             return ["{"] + indented + ["}"]
         }
             
@@ -244,7 +244,7 @@ public struct JSONSerialization {
         else if let array = JSON as? JSONArray {
             // nested array of lines
             let result = try array.throwingMap { try _encodePretty($0) }
-            let indented = _flattenWithCommas(result).map { kIdentationString + $0 }
+            let indented = _flattenWithCommas(result).map { kIndentationString + $0 }
             return ["["] + indented + ["]"]
         }
             
