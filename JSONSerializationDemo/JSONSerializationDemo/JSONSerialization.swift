@@ -211,10 +211,6 @@ public struct JSONSerialization {
         }
     }
     
-    private static func _appendComma(array: [String]) -> [String] {
-        return array.enumerate().map { (index, line) in index == array.count-1 ? line : line + ","  }
-    }
-    
     private static func _flattenWithCommas(array: [[String]]) -> [String] {
         var result = [String]()
         for (index, sub) in array.enumerate() {
