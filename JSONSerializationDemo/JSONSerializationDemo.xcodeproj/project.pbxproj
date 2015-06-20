@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EFDE2621B356A6100B8BA67 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFDE2611B356A6100B8BA67 /* main.swift */; };
+		9EFDE26A1B356A7C00B8BA67 /* JSONSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFDE2681B356A7C00B8BA67 /* JSONSerialization.swift */; };
+		9EFDE26B1B356A7C00B8BA67 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFDE2691B356A7C00B8BA67 /* String.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9EFDE25C1B356A6100B8BA67 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9EFDE25E1B356A6100B8BA67 /* JSONSerializationDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JSONSerializationDemo; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFDE2611B356A6100B8BA67 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9EFDE2681B356A7C00B8BA67 /* JSONSerialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONSerialization.swift; sourceTree = "<group>"; };
+		9EFDE2691B356A7C00B8BA67 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EFDE25B1B356A6100B8BA67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EFDE2551B356A6100B8BA67 = {
+			isa = PBXGroup;
+			children = (
+				9EFDE2601B356A6100B8BA67 /* JSONSerializationDemo */,
+				9EFDE25F1B356A6100B8BA67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EFDE25F1B356A6100B8BA67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EFDE25E1B356A6100B8BA67 /* JSONSerializationDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EFDE2601B356A6100B8BA67 /* JSONSerializationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9EFDE2611B356A6100B8BA67 /* main.swift */,
+				9EFDE2681B356A7C00B8BA67 /* JSONSerialization.swift */,
+				9EFDE2691B356A7C00B8BA67 /* String.swift */,
+			);
+			path = JSONSerializationDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EFDE25D1B356A6100B8BA67 /* JSONSerializationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EFDE2651B356A6100B8BA67 /* Build configuration list for PBXNativeTarget "JSONSerializationDemo" */;
+			buildPhases = (
+				9EFDE25A1B356A6100B8BA67 /* Sources */,
+				9EFDE25B1B356A6100B8BA67 /* Frameworks */,
+				9EFDE25C1B356A6100B8BA67 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONSerializationDemo;
+			productName = JSONSerializationDemo;
+			productReference = 9EFDE25E1B356A6100B8BA67 /* JSONSerializationDemo */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EFDE2561B356A6100B8BA67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = matthewcheok;
+				TargetAttributes = {
+					9EFDE25D1B356A6100B8BA67 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 9EFDE2591B356A6100B8BA67 /* Build configuration list for PBXProject "JSONSerializationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9EFDE2551B356A6100B8BA67;
+			productRefGroup = 9EFDE25F1B356A6100B8BA67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EFDE25D1B356A6100B8BA67 /* JSONSerializationDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EFDE25A1B356A6100B8BA67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFDE26B1B356A7C00B8BA67 /* String.swift in Sources */,
+				9EFDE26A1B356A7C00B8BA67 /* JSONSerialization.swift in Sources */,
+				9EFDE2621B356A6100B8BA67 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9EFDE2631B356A6100B8BA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EFDE2641B356A6100B8BA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9EFDE2661B356A6100B8BA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9EFDE2671B356A6100B8BA67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EFDE2591B356A6100B8BA67 /* Build configuration list for PBXProject "JSONSerializationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EFDE2631B356A6100B8BA67 /* Debug */,
+				9EFDE2641B356A6100B8BA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EFDE2651B356A6100B8BA67 /* Build configuration list for PBXNativeTarget "JSONSerializationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EFDE2661B356A6100B8BA67 /* Debug */,
+				9EFDE2671B356A6100B8BA67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EFDE2561B356A6100B8BA67 /* Project object */;
+}
